@@ -1,0 +1,205 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+.bg {
+  background-image: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 89.05vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+.bg a {
+  text-decoration: none;
+  color: black;
+}
+
+         
+
+         .bg button{
+            background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+            cursor: pointer;
+            text-align: center;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+            }
+nav {
+    display: flex;
+    padding: 15px 20px;
+    height:65px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: white;
+    align-items: center;
+}
+
+nav--title {
+    font-size: 20px;
+    margin-right: auto;
+}
+
+nav--options--container {
+    display: flex;
+    flex-direction: row;
+}
+
+/*.nav--option {
+    font-size: 17px;
+    padding: 20px 15px;
+    cursor: pointer;
+    transition-delay:0.1s;
+}
+.nav--option:hover {
+    cursor: pointer;
+    color: #ff512f;
+}
+.log {
+  margin: 0px 200px;
+}*/
+.optionDiv {
+  background-image: url("bg1.jpg");
+  background-size: cover;
+}
+.optionDiv {
+  width: 100vw;
+  height: 89.1vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.optionDiv button {
+  margin: 0px 100px;
+  background: #3d94f6;
+  background-image: -webkit-linear-gradient(top, #3d94f6, #1e62d0);
+  background-image: -moz-linear-gradient(top, #3d94f6, #1e62d0);
+  background-image: -ms-linear-gradient(top, #3d94f6, #1e62d0);
+  background-image: -o-linear-gradient(top, #3d94f6, #1e62d0);
+  background-image: -webkit-gradient(to bottom, #3d94f6, #1e62d0);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #ffffff;
+  font-family: Brush Script MT;
+  font-size: 40px;
+  font-weight: 100;
+  padding: 40px;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #337fed 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.optionDiv button:hover {
+  border: solid #337fed 1px;
+  background: #1e62d0;
+  background-image: -webkit-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -moz-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -ms-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -o-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -webkit-gradient(to bottom, #1e62d0, #3d94f6);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.optionDiv a {
+  text-decoration: none;
+  color: white;
+}
+.teachLog {
+
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: hsla(221, 59%, 75%, 1);
+
+background: linear-gradient(90deg, hsla(221, 59%, 75%, 1) 0%, hsla(186, 100%, 45%, 1) 0%);
+
+background: -moz-linear-gradient(90deg, hsla(221, 59%, 75%, 1) 0%, hsla(186, 100%, 45%, 1) 0%);
+
+background: -webkit-linear-gradient(90deg, hsla(221, 59%, 75%, 1) 0%, hsla(186, 100%, 45%, 1) 0%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#9BB2E5", endColorstr="#00D0E7", GradientType=1 );
+}
+
+.teachForm {
+  box-shadow: 7px 10px 17px 0px rgba(0, 0, 0, 0.73);
+  -webkit-box-shadow: 7px 10px 17px 0px rgba(0, 0, 0, 0.73);
+  -moz-box-shadow: 7px 10px 17px 0px rgba(0, 0, 0, 0.73);
+  padding: 60px 40px;
+  border-radius: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.teachForm input {
+  width: 300px;
+}
+.tableDiv {
+  margin: 10px 200px;
+  box-shadow: 7px 10px 17px 0px rgba(0, 0, 0, 0.73);
+  -webkit-box-shadow: 7px 10px 17px 0px rgba(0, 0, 0, 0.73);
+  -moz-box-shadow: 7px 10px 17px 0px rgba(0, 0, 0, 0.73);
+  padding: 60px 40px;
+  border-radius: 10px;
+}
+.table {
+  text-align: center;
+}
+.addStu {
+  box-shadow: 7px 10px 17px 0px rgba(0, 0, 0, 0.73);
+  -webkit-box-shadow: 7px 10px 17px 0px rgba(0, 0, 0, 0.73);
+  -moz-box-shadow: 7px 10px 17px 0px rgba(0, 0, 0, 0.73);
+  padding: 60px 40px;
+  border-radius: 10px;
+  margin: 60px 300px;
+}
+.profileBox {
+  text-align: center;
+  margin: 20px;
+}
+.stuTable {
+  box-shadow: 7px 10px 17px 0px rgba(0, 0, 0, 0.73);
+  -webkit-box-shadow: 7px 10px 17px 0px rgba(0, 0, 0, 0.73);
+  -moz-box-shadow: 7px 10px 17px 0px rgba(0, 0, 0, 0.73);
+  padding: 60px 40px;
+  border-radius: 10px;
+  margin: 0px 200px;
+  margin-bottom: 50px;
+}
+h1,
+h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 10px;
+  background: #121fcf;
+  background: -webkit-linear-gradient(to right, #121fcf 0%, #cf1512 100%);
+  background: -moz-linear-gradient(to right, #121fcf 0%, #cf1512 100%);
+  background: linear-gradient(to right, #121fcf 0%, #cf1512 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
